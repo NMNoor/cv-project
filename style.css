@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #E4f9f5;
+    padding: 20px;
+    
+}
+.profile-image{
+    height: 120PX;
+    width: 100PX;
+    border: 2PX solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.profile-name{
+    float: left;
+    padding: 20px;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact p a{
+    text-decoration: none;
+    color: rgb(102, 60, 141);
+    font-weight: bold;
+    
+}
+.header-contact p a:hover{
+    color: lime;
+    text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.clear{
+    clear: both;
+}
+
+
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+
+#personal-section{
+
+}
+.content{
+
+}
+.content .div-left{
+    width: 30%;
+    float: left;
+}
+.content .div-right{
+    width: 70%;
+    float: left;
+    position: relative;
+
+}
+
+
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+#work-experience{
+
+}
+.content{
+
+}
+.content .div-left{
+
+}
+.content .div-right{
+
+}
+
+.content .div-right p{
+    margin-top: 15px;
+}
+
+
+#movie-pics{
+
+}
+.content-movie{
+
+}
+.content-movie .faka-left{
+    width: 30%;
+    float: left;
+}
+
+.content-movie .faka-right{
+    width: 70%;
+    float: right;
+}
+.content-movie .faka-right .photo{
+    box-sizing: border-box;
+}
+.content-movie .faka-right .photo .pic1{
+    width: 21%;
+    
+    float: left;
+    padding: 12px;
+    
+}
+.content-movie .faka-right .photo .pic1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+}
+.content-movie .faka-right .photo .pic1 img:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+.content-movie .faka-right .photo .pic2{
+    width: 21%;
+    float: left;
+    padding: 12px;
+}
+.content-movie .faka-right .photo .pic2 img{
+    width: 150px;
+    border-radius: 5%;
+}
+.content-movie .faka-right .photo .pic2 img:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+.content-movie .faka-right .photo .pic3{
+    width: 21%;
+    float: left;
+    padding: 12px;
+}
+.content-movie .faka-right .photo .pic3 img{
+    width: 150px;
+    border-radius: 5%;
+}
+.content-movie .faka-right .photo .pic3 img:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+.content-movie .faka-right .photo .pic4{
+    width: 21%;
+    float: left;
+    padding: 12px;
+}
+.content-movie .faka-right .photo .pic4 img{
+    width: 150px;
+    border-radius: 5%;
+}
+.content-movie .faka-right .photo .pic4 img:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+
+
+
+/* 2nd movie class */
+#movieso{
+
+}
+.contento{
+
+}
+.contento .div-lefto{
+    width: 30%;
+    float: left;
+    background-color: orangered;
+}
+.contento .div-righto{
+    width: 70%;
+    float: right;
+}
+
+.movie-line{
+    text-align: center;
+    font-style: italic;
+    color: tomato;
+}
+
+#anime{
+
+}
+
+.anime-div{
+
+}
+
+.anime-div .anime-div-left{
+    width: 25%;
+    float: left;
+}
+
+
+.anime-div .anime-div-right{
+    width: 75%;
+    float: right;
+}
+
+.anime-div .anime-div-right .child-left{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.anime-div .anime-div-right .child-left img{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.anime-div .anime-div-right .child-left img:hover{
+    box-shadow: 8px 8px 5px gray;
+}
+
+.anime-div .anime-div-right .child-right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    padding-top: 15px;
+}
